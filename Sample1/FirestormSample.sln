@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirestormSample.Api.FunctionalTests", "tests\FirestormSample.Api.FunctionalTests\FirestormSample.Api.FunctionalTests.csproj", "{BB99D4AD-7DF2-4CC4-B703-053C4310E214}"
 EndProject
@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirestormSample.Api", "src\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirestormSample.Models", "src\FirestormSample.Models\FirestormSample.Models.csproj", "{79BABDA3-CB91-4651-A309-A0D8431A8C79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirestormSample.EntityFramework", "FirestormSample.EntityFramework\FirestormSample.EntityFramework.csproj", "{AC83ED9E-15B2-4DC1-9277-A52FD1F74736}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirestormSample.EntityFramework", "src\FirestormSample.EntityFramework\FirestormSample.EntityFramework.csproj", "{AC83ED9E-15B2-4DC1-9277-A52FD1F74736}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

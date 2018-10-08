@@ -1,4 +1,5 @@
-﻿using System.Linq.Expressions;
+﻿using System;
+using System.Linq.Expressions;
 using Firestorm.Stems;
 using Firestorm.Stems.Attributes.Basic.Attributes;
 using Firestorm.Stems.Attributes.Definitions;
@@ -54,6 +55,11 @@ namespace FirestormSample.Api.Stems
         public static Expression PostedDate
         {
             get { return Expression(b => b.PostedDate); }
+        }
+
+        public override void OnCreating(Post newItem)
+        {
+            newItem.PostedDate = DateTime.UtcNow;
         }
 
         public override bool CanAddItem()

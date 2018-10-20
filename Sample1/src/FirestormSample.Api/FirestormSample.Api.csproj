@@ -23,7 +23,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FirestormSample.Domain\FirestormSample.Domain.csproj" />
     <ProjectReference Include="..\FirestormSample.EntityFramework\FirestormSample.EntityFramework.csproj" />
-    <ProjectReference Include="..\FirestormSample.Models\FirestormSample.Models.csproj" />
   </ItemGroup>
 </Project>

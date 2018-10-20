@@ -1,5 +1,5 @@
 ﻿using Firestorm.Stems;
-using FirestormSample.Models;
+using FirestormSample.Domain.Models;
 
 namespace FirestormSample.Api.Stems
 {

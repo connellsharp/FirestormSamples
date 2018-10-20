@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
-namespace FirestormSample.Models
+namespace FirestormSample.Domain.Models
 {
     public class Board
     {
@@ -11,5 +12,7 @@ namespace FirestormSample.Models
         public string Name { get; set; }
 
         public ICollection<Post> Posts { get; set; }
+        
+        public DateTime CreatedDate { get; set; }
     }
 }

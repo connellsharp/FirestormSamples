@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace FirestormSample.Models
+namespace FirestormSample.Domain.Models
 {
     public class User
     {

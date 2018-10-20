@@ -1,4 +1,4 @@
-﻿using FirestormSample.Models;
+﻿using FirestormSample.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace FirestormSample.EntityFramework

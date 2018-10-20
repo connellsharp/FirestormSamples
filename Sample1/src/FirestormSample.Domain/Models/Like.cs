@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FirestormSample.Models
+namespace FirestormSample.Domain.Models
 {
     public class Like
     {

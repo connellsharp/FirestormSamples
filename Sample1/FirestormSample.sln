@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirestormSample.Api.FunctionalTests", "tests\FirestormSample.Api.FunctionalTests\FirestormSample.Api.FunctionalTests.csproj", "{BB99D4AD-7DF2-4CC4-B703-053C4310E214}"
 EndProject
@@ -8,9 +8,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{9B5FAF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirestormSample.Api", "src\FirestormSample.Api\FirestormSample.Api.csproj", "{CA50AB5E-74C0-480E-AC3E-80F4878BB488}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirestormSample.Models", "src\FirestormSample.Models\FirestormSample.Models.csproj", "{79BABDA3-CB91-4651-A309-A0D8431A8C79}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirestormSample.EntityFramework", "src\FirestormSample.EntityFramework\FirestormSample.EntityFramework.csproj", "{AC83ED9E-15B2-4DC1-9277-A52FD1F74736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirestormSample.Domain", "src\FirestormSample.Domain\FirestormSample.Domain.csproj", "{208BF956-625F-4799-8CAA-0FCAD705933A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,19 +26,19 @@ Global
 		{CA50AB5E-74C0-480E-AC3E-80F4878BB488}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA50AB5E-74C0-480E-AC3E-80F4878BB488}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA50AB5E-74C0-480E-AC3E-80F4878BB488}.Release|Any CPU.Build.0 = Release|Any CPU
-		{79BABDA3-CB91-4651-A309-A0D8431A8C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79BABDA3-CB91-4651-A309-A0D8431A8C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79BABDA3-CB91-4651-A309-A0D8431A8C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79BABDA3-CB91-4651-A309-A0D8431A8C79}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC83ED9E-15B2-4DC1-9277-A52FD1F74736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC83ED9E-15B2-4DC1-9277-A52FD1F74736}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC83ED9E-15B2-4DC1-9277-A52FD1F74736}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC83ED9E-15B2-4DC1-9277-A52FD1F74736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{208BF956-625F-4799-8CAA-0FCAD705933A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208BF956-625F-4799-8CAA-0FCAD705933A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208BF956-625F-4799-8CAA-0FCAD705933A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208BF956-625F-4799-8CAA-0FCAD705933A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BB99D4AD-7DF2-4CC4-B703-053C4310E214} = {85FBBEDD-AC2F-441E-B78D-4B951BC50817}
 		{CA50AB5E-74C0-480E-AC3E-80F4878BB488} = {9B5FAF7E-50CE-4C9C-A836-2757CF5205B7}
-		{79BABDA3-CB91-4651-A309-A0D8431A8C79} = {9B5FAF7E-50CE-4C9C-A836-2757CF5205B7}
 		{AC83ED9E-15B2-4DC1-9277-A52FD1F74736} = {9B5FAF7E-50CE-4C9C-A836-2757CF5205B7}
+		{208BF956-625F-4799-8CAA-0FCAD705933A} = {9B5FAF7E-50CE-4C9C-A836-2757CF5205B7}
 	EndGlobalSection
 EndGlobal

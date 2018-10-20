@@ -14,4 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\FirestormSample.Api\FirestormSample.Api.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Helpers" />
+  </ItemGroup>
 </Project>

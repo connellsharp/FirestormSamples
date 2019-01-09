@@ -1,5 +1,7 @@
 ﻿using Firestorm.AspNetCore2;
-using Firestorm.Extensions.AspNetCore;
+using Firestorm.Endpoints;
+using Firestorm.EntityFrameworkCore2;
+using Firestorm.Stems;
 using FirestormSample.Domain.Messages;
 using FirestormSample.EntityFramework;
 using Microsoft.AspNetCore.Builder;
@@ -16,11 +18,12 @@ namespace FirestormSample.Api
             services.AddDbContext<SampleDbContext>(o => o.UseInMemoryDatabase("Sample"));
 
             services.AddSingleton<IMessagePublisher, ConsoleMessagePublisher>();
-            
+
             services.AddFirestorm()
+                .AddEndpoints(config => config.ResponseConfiguration.ShowDeveloperErrors = true)
                 .AddStems()
                 .AddEntityFramework<SampleDbContext>(o => o.EnsureCreatedOnRequest = true)
-                .ConfigureEndpoints(config => config.ResponseConfiguration.ShowDeveloperErrors = true);
+                ;
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

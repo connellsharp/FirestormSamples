@@ -7,16 +7,16 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Firestorm.AspNetCore2">
-      <Version>0.9.2-alpha018</Version>
+      <Version>0.9.3-alpha.32</Version>
+    </PackageReference>
+    <PackageReference Include="Firestorm.Endpoints">
+      <Version>0.9.3-alpha.32</Version>
     </PackageReference>
     <PackageReference Include="Firestorm.EntityFrameworkCore2">
-      <Version>0.9.2-alpha018</Version>
+      <Version>0.9.3-alpha.32</Version>
     </PackageReference>
-    <PackageReference Include="Firestorm.Extensions.AspNetCore">
-      <Version>0.9.2-alpha018</Version>
-    </PackageReference>
-    <PackageReference Include="Firestorm.Stems.Start">
-      <Version>0.9.2-alpha018</Version>
+    <PackageReference Include="Firestorm.Stems">
+      <Version>0.9.3-alpha.32</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.App">
       <Version>2.1.2</Version>

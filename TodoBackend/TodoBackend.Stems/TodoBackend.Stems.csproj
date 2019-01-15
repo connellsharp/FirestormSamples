@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Firestorm.AspNetCore2">
+          <Version>0.9.3-todobacken-00062</Version>
+        </PackageReference>
+        <PackageReference Include="Firestorm.Endpoints">
+          <Version>0.9.3-todobacken-00062</Version>
+        </PackageReference>
+        <PackageReference Include="Firestorm.Stems">
+          <Version>0.9.3-todobacken-00062</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+
+</Project>

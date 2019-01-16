@@ -7,19 +7,19 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Firestorm.AspNetCore2">
-      <Version>0.9.3-alpha.32</Version>
+      <Version>0.9.3-todobacken-00062</Version>
     </PackageReference>
     <PackageReference Include="Firestorm.Endpoints">
-      <Version>0.9.3-alpha.32</Version>
+      <Version>0.9.3-todobacken-00062</Version>
     </PackageReference>
     <PackageReference Include="Firestorm.EntityFrameworkCore2">
-      <Version>0.9.3-alpha.32</Version>
+      <Version>0.9.3-todobacken-00062</Version>
     </PackageReference>
     <PackageReference Include="Firestorm.Stems">
-      <Version>0.9.3-alpha.32</Version>
+      <Version>0.9.3-todobacken-00062</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.App">
-      <Version>2.1.2</Version>
+      <Version>2.1.0</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

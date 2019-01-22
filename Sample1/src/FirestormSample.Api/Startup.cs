@@ -20,7 +20,7 @@ namespace FirestormSample.Api
             services.AddSingleton<IMessagePublisher, ConsoleMessagePublisher>();
 
             services.AddFirestorm()
-                .AddEndpoints(config => config.Response.ShowDeveloperErrors = true)
+                .AddEndpoints(c => c.Response.ShowDeveloperErrors = true)
                 .AddStems()
                 .AddEntityFramework<SampleDbContext>(o => o.EnsureCreatedOnRequest = true)
                 ;
